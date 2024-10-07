@@ -1,0 +1,2 @@
+(this.webpackJsonpclient=this.webpackJsonpclient||[]).push([[184],{1195:function(e,t,n){"use strict";n.r(t);var o=n(16),i=n(3),r=n(0),s=function(e,t){return Object(r.jsxs)("svg",Object(o.a)(Object(o.a)({width:"24",height:"24",viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round",ref:t},e),{},{children:[Object(r.jsx)("line",{x1:"22",y1:"2",x2:"11",y2:"13"}),Object(r.jsx)("polygon",{points:"22 2 15 22 11 13 2 9 22 2"})]}))},c=Object(i.forwardRef)(s);t.default=c}}]);
+//# sourceMappingURL=184.c4f1650d.chunk.js.map

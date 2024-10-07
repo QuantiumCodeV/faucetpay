@@ -16,12 +16,10 @@ def download_scripts(base_url, script_names, download_path):
         else:
             print(f"Failed to download: {script_name}")
 
-base_url = "https://faucetpay.io/static/js/"
+base_url = "https://faucetpay.io/static/css/"
 script_names = [
-    "164.a614ab97.chunk.js",
-    "169.ae5d79a4.chunk.js",
-    "179.537cb00a.chunk.js",
-    "147.ce8a1043.chunk.js"
+    "10.4d18e9cb.chunk.css",
+    "85.d9914021.chunk.css",
 
 ]
 download_path = "downloaded_scripts"
