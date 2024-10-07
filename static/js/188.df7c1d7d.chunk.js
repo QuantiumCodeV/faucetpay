@@ -1,0 +1,2 @@
+(this.webpackJsonpclient=this.webpackJsonpclient||[]).push([[188],{12:function(n,t,i){"use strict";i.r(t),i.d(t,"isInIFrame",(function(){return o}));var o=function(){return window.location!==window.parent.location}}}]);
+//# sourceMappingURL=188.df7c1d7d.chunk.js.map
