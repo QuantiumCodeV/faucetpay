@@ -1,0 +1,110 @@
+.style_breadCrumbsWrapper__Yd1D_ {
+  display: flex;
+  align-items: center;
+}
+.style_breadCrumbsWrapper__Yd1D_ > :not(:last-child) {
+  margin-right: 5px;
+}
+.style_breadCrumbsWrapper__Yd1D_ .style_name__3oD0Y {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.625px;
+  color: var(--standard-text);
+  opacity: 0.3;
+}
+.style_breadCrumbsWrapper__Yd1D_ .style_name_active__fb4UQ {
+  opacity: 1;
+  pointer-events: none;
+}
+.style_breadCrumbsWrapper__Yd1D_ button {
+  padding: 0;
+}
+.style_page__Z1qqe {
+  flex-basis: 100%;
+  padding: 20px 150px 150px;
+}
+@media (max-width: 1150px) {
+  .style_page__Z1qqe {
+    padding: 20px 24px 24px;
+  }
+}
+.style_header__Srtbr {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.style_header__Srtbr.style_withoutMargin__bPQOB {
+  margin-bottom: 0;
+}
+.style_descriptionUnderTitle__1lPn1 {
+  display: block;
+  color: var(--semitransparent-standard-text);
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+.style_underTitleWrapper__2B6BZ .style_descriptionUnderTitle__1lPn1 {
+  margin-bottom: 0;
+}
+.style_underTitleWrapper__2B6BZ .style_descriptionUnderTitle__1lPn1:last-child {
+  margin-bottom: 20px;
+}
+.style_title__3idsH {
+  display: flex;
+  align-items: center;
+}
+.style_title__3idsH > h1 {
+  font-family: "GT Walsheim Pro", Arial, Helvetica, sans-serif;
+  display: inline-block;
+  color: var(--standard-text);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 41px;
+  margin: 0 8px 0 0;
+}
+@media (max-width: 600px) {
+  .style_title__3idsH > h1 {
+    font-size: 28px;
+  }
+}
+.style_backIcon__U4FPm {
+  position: relative;
+  width: 0.7em;
+  height: 0.7em;
+  color: var(--standard-text);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+  margin-right: 5px;
+  cursor: pointer;
+}
+.style_path__3jhjp {
+  white-space: nowrap;
+  flex-wrap: wrap;
+}
+.style_termTitle__1qmmL {
+  font-family: "GT Walsheim Pro", Arial, Helvetica, sans-serif;
+  margin: 30px 0 10px;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 24px;
+}
+.style_term__3SolO {
+  font-weight: 400;
+  margin: 0 0 10px;
+}
+.style_caution__fTeGA,
+.style_term__3SolO {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+}
+.style_caution__fTeGA {
+  font-weight: 600;
+  display: block;
+  margin-top: 30px;
+}
+/*# sourceMappingURL=103.c1efce36.chunk.css.map */

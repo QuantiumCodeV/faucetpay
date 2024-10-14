@@ -23,7 +23,7 @@
         font-style: normal;
         font-weight: 400;
         src: local("Inter-Regular"),
-          url(fonts/inter/Inter-Regular.ttf) format("opentype");
+          url(/fonts/inter/Inter-Regular.ttf) format("opentype");
         font-display: swap;
       }
       @font-face {
@@ -31,7 +31,7 @@
         font-style: normal;
         font-weight: 500;
         src: local("Inter-Medium"),
-          url(fonts/inter/Inter-Medium.ttf) format("opentype");
+          url(/fonts/inter/Inter-Medium.ttf) format("opentype");
         font-display: swap;
       }
       @font-face {
@@ -39,7 +39,7 @@
         font-style: normal;
         font-weight: 700;
         src: local("Inter-Bold"),
-          url(fonts/inter/Inter-Bold.ttf) format("opentype");
+          url(/fonts/inter/Inter-Bold.ttf) format("opentype");
         font-display: swap;
       }
       @font-face {
@@ -55,7 +55,7 @@
         font-style: normal;
         font-weight: 400;
         src: local("GT-Regular"),
-          url(fonts/gt/GTWalsheimPro-Regular.ttf) format("opentype");
+          url(/fonts/gt/GTWalsheimPro-Regular.ttf) format("opentype");
         font-display: swap;
       }
       @font-face {
@@ -63,7 +63,7 @@
         font-style: normal;
         font-weight: 500;
         src: local("GT-Medium"),
-          url(fonts/gt/GTWalsheimPro-Medium.ttf) format("opentype");
+          url(/fonts/gt/GTWalsheimPro-Medium.ttf) format("opentype");
         font-display: swap;
       }
       @font-face {
@@ -79,7 +79,7 @@
         font-style: normal;
         font-weight: 800;
         src: local("GT-UltraBold"),
-          url(fonts/gt/GTWalsheimPro-UltraBold.ttf) format("opentype");
+          url(/fonts/gt/GTWalsheimPro-UltraBold.ttf) format("opentype");
         font-display: swap;
       }
       @font-face {
@@ -87,7 +87,7 @@
         font-style: normal;
         font-weight: 900;
         src: local("GT-Black"),
-          url(fonts/gt/GTWalsheimPro-Black.ttf) format("opentype");
+          url(/fonts/gt/GTWalsheimPro-Black.ttf) format("opentype");
         font-display: swap;
       }
       @font-face {
@@ -95,7 +95,7 @@
         font-style: normal;
         font-weight: 700;
         src: local("Gilroy-Bold"),
-          url("fonts/gilroy/Radomir%20Tinkov%20-%20Gilroy-Bold.otf")
+          url("/fonts/gilroy/Radomir%20Tinkov%20-%20Gilroy-Bold.otf")
             format("opentype");
         font-display: swap;
       }
@@ -104,7 +104,7 @@
         font-style: normal;
         font-weight: 800;
         src: local("Gilroy-Extrabold"),
-          url("fonts/gilroy/Radomir%20Tinkov%20-%20Gilroy-ExtraBold.otf")
+          url("/fonts/gilroy/Radomir%20Tinkov%20-%20Gilroy-ExtraBold.otf")
             format("opentype");
         font-display: swap;
       }
@@ -113,7 +113,7 @@
         font-style: normal;
         font-weight: 900;
         src: local("Gilroy-Heavy"),
-          url("fonts/gilroy/Radomir%20Tinkov%20-%20Gilroy-Heavy.otf")
+          url("/fonts/gilroy/Radomir%20Tinkov%20-%20Gilroy-Heavy.otf")
             format("opentype");
         font-display: swap;
       }
@@ -122,7 +122,7 @@
         font-style: normal;
         font-weight: 600;
         src: local("Gilroy-Semibold"),
-          url("fonts/gilroy/Radomir%20Tinkov%20-%20Gilroy-SemiBold.otf")
+          url("/fonts/gilroy/Radomir%20Tinkov%20-%20Gilroy-SemiBold.otf")
             format("opentype");
         font-display: swap;
       }
@@ -131,7 +131,7 @@
         font-style: normal;
         font-weight: 400;
         src: local("Gilroy"), local("Gilroy-Medium"),
-          url("fonts/gilroy/Radomir%20Tinkov%20-%20Gilroy-Medium.otf")
+          url("/fonts/gilroy/Radomir%20Tinkov%20-%20Gilroy-Medium.otf")
             format("opentype");
         font-display: swap;
       }
@@ -139,28 +139,28 @@
         font-family: VAGRoundedStd;
         font-style: normal;
         font-weight: 400;
-        src: url(fonts/vag-rounded/VAG-Rounded-Std-Black.ttf) format("truetype");
+        src: url(/fonts/vag-rounded/VAG-Rounded-Std-Black.ttf) format("truetype");
         font-display: swap;
       }
       @font-face {
         font-family: VAGRoundedStd;
         font-style: normal;
         font-weight: 700;
-        src: url(fonts/vag-rounded/VAG-Rounded-Std-Bold.ttf) format("truetype");
+        src: url(/fonts/vag-rounded/VAG-Rounded-Std-Bold.ttf) format("truetype");
         font-display: swap;
       }
       @font-face {
         font-family: VAGRoundedStd;
         font-style: normal;
         font-weight: 200;
-        src: url(fonts/vag-rounded/VAG-Rounded-Std-Light.ttf) format("truetype");
+        src: url(/fonts/vag-rounded/VAG-Rounded-Std-Light.ttf) format("truetype");
         font-display: swap;
       }
       @font-face {
         font-family: VAGRoundedStd;
         font-style: normal;
         font-weight: 100;
-        src: url(fonts/vag-rounded/VAG-Rounded-Std-Thin.ttf) format("truetype");
+        src: url(/fonts/vag-rounded/VAG-Rounded-Std-Thin.ttf) format("truetype");
         font-display: swap;
       }
     </style>
@@ -630,8 +630,11 @@
                         l.parentNode.removeChild(l),
                         f(t);
                     }),
-                    (l.href = b),
-                    document.getElementsByTagName("head")[0].appendChild(l);
+                    (l.href = b);
+                  
+                 
+                  
+                  document.getElementsByTagName("head")[0].appendChild(l);
                 }).then(function () {
                   a[e] = 0;
                 }))
@@ -931,6 +934,7 @@
                     ".chunk.js"
                   );
                 })(e));
+              n.type = "text/javascript"; // Изменено с "text/html" на "text/javascript"
               var o = new Error();
               t = function (c) {
                 (n.onerror = n.onload = null), clearTimeout(u);
