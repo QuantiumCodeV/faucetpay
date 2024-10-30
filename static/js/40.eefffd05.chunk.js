@@ -5865,7 +5865,7 @@
         H = r()(function (e) {
           return u.b.error(e);
         }, 200),
-        D = c.a.create({ baseURL: "https://api.quantiumcode.online/api", timeout: 3e4 });
+        D = c.a.create({ baseURL: "http://127.0.0.1:8000/api", timeout: 3e4 });
       D.interceptors.request.use(function (e) {
         var t = localStorage.getItem(o.q.access);
         return t && (e.headers.Authorization = "Bearer ".concat(t)), e;
