@@ -2416,7 +2416,7 @@
                   Object(a.a)(
                     Object(a.a)(
                       {
-                        src: "https://cdn.faucetpay.io/coins/".concat(
+                        src: "//".concat(
                           (t || "").toLowerCase(),
                           ".png"
                         ),
